@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe ProductSpec, type: :model do
   describe 'Validations' do
-    # validation tests/examples here
+    
     it 'saves the product if name, quantity, price and category are filled' do
     
       @category = Category.new(name: 'New Test Category')
